@@ -29,6 +29,62 @@ This project implements a complete ASIC design flow for an SRAM Controller, star
 * Timing violation fixed (-31ps → positive slack)
 * DRC violations resolved (~7800 → clean)
 * Reports generated: Timing, Power, Area
+  
+---
+
+## 📈 Detailed Timing Results
+
+### 🔹 Post-CTS Results
+
+* **WNS (Worst Negative Slack):** -0.026 ns
+* **TNS (Total Negative Slack):** -0.096 ns
+* **Violating Paths:** 12
+* **DRC Violations:** 0 (clean)
+* **Density:** 71.0%
+
+---
+
+### 🔹 Post-Route Setup Results
+
+* **WNS:** -0.023 ns
+* **TNS:** -0.023 ns
+* **Violating Paths:** 1
+* **Improvement:** Reduced from 12 → 1 violating paths
+* **Density:** 73.4%
+
+---
+
+### 🔹 Post-Route Hold Results
+
+* **WNS:** 0.000 ns ✅
+* **TNS:** 0.000 ns ✅
+* **Violating Paths:** 0
+  👉 **Hold timing fully clean**
+
+---
+
+### 🔹 Clock Analysis
+
+#### Clock Skew
+
+* **Skew:** ~0.020 ns
+  👉 Indicates well-balanced clock tree
+
+#### Clock Latency
+
+* **Latency:** ~0.224 ns
+  👉 Controlled clock distribution network
+
+---
+
+## 🧠 Key Observations
+
+* Significant timing improvement after routing stage
+* Near-zero setup violation achieved (final WNS ≈ -0.023 ns)
+* Fully clean hold timing (no violations)
+* Zero DRC violations across all stages
+* Balanced clock tree with low skew
+
 
 ---
 
