@@ -53,9 +53,11 @@ This project implements a complete ASIC flow for an SRAM Controller using Cadenc
 ![Placement](docs/placement.png)
 
 ### 🔹 Clock Tree (CTS)
+
 ![CTS](docs/clock_tree_synthesis.png)
 
 ### 🔹 Routing
+
 ![Routing](docs/routing.png)
 
 ### 🔹 Final GDS Layout
