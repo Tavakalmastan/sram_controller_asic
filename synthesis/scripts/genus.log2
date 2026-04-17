@@ -1,0 +1,39 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[14:22:39.268201] Configured Lic search path (23.02-s006): 5280@vlsi5.localdomain
+
+Version: 23.16-s067_1, built Thu Oct 30 03:19:39 PDT 2025
+Options: 
+Date:    Wed Apr 15 14:22:39 2026
+Host:    vlsi5.localdomain (x86_64 w/Linux 4.18.0-553.el8_10.x86_64) (20cores*80cpus*2physical cpus*Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz 28160KB) (131112644KB)
+PID:     906037
+OS:      Red Hat Enterprise Linux 8.10 (Ootpa)
+
+Checking out license: Genus_Synthesis
+[14:22:39.475067] Periodic Lic check successful
+[14:22:39.999369] Feature usage summary:
+[14:22:39.999370] Genus_Synthesis
+License checkout complete (0 seconds elapsed).
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Finished executable startup (8 seconds elapsed).
+
+Loading tool scripts...
+Finished loading tool scripts (23 seconds elapsed).
+
+@genus:root: 1> exit
+
+Lic Summary:
+[14:23:29.449984] Cdslmd servers: vlsi5
+[14:23:29.974289] Feature usage summary:
+[14:23:29.974289] Genus_Synthesis
+
+Normal exit.

@@ -1,0 +1,11 @@
+# Version:1.0 MMMC View Definition File
+# Do Not Remove Above Line
+create_rc_corner -name typical -cap_table {../libs/qrc/cln28hpl_1p10m+alrdl_5x2yu2yz_typical.capTbl} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0} -qx_tech_file {../libs/qrc/gpdk045.tch}
+create_library_set -name slow -timing {../libs/timing_lib/slow/slow_vdd1v0_basicCells.lib ../libs/timing_lib/slow/slow_vdd1v0_basicCells_hvt.lib ../libs/timing_lib/slow/slow_vdd1v0_basicCells_lvt.lib}
+create_library_set -name fast -timing {../libs/timing_lib/fast/fast_vdd1v0_basicCells.lib ../libs/timing_lib/fast/fast_vdd1v0_basicCells_hvt.lib ../libs/timing_lib/fast/fast_vdd1v2_basicCells_lvt.lib}
+create_constraint_mode -name func -sdc_files {inputs/memory.sdc}
+create_delay_corner -name ss_cnom -library_set {slow} -rc_corner {typical}
+create_delay_corner -name fast_cnom -library_set {fast} -rc_corner {typical}
+create_analysis_view -name func_ss -constraint_mode {func} -delay_corner {ss_cnom}
+create_analysis_view -name func_ff -constraint_mode {func} -delay_corner {fast_cnom}
+set_analysis_view -setup {func_ss} -hold {func_ff}

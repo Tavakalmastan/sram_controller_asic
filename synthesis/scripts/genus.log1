@@ -1,0 +1,76 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[10:01:16.268105] Configured Lic search path (23.02-s006): 5280@vlsi5.localdomain
+
+Version: 23.16-s067_1, built Thu Oct 30 03:19:39 PDT 2025
+Options: -files syn_flow.tcl 
+Date:    Sat Mar 14 10:01:16 2026
+Host:    vlsi5.localdomain (x86_64 w/Linux 4.18.0-553.el8_10.x86_64) (20cores*80cpus*2physical cpus*Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz 28160KB) (65314544KB)
+PID:     29894
+OS:      Red Hat Enterprise Linux 8.10 (Ootpa)
+
+Checking out license: Genus_Synthesis
+[10:01:16.279947] Periodic Lic check successful
+[10:01:16.804249] Feature usage summary:
+[10:01:16.804250] Genus_Synthesis
+License checkout complete (0 seconds elapsed).
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Finished executable startup (7 seconds elapsed).
+
+Loading tool scripts...
+Finished loading tool scripts (20 seconds elapsed).
+
+#@ Processing -files option
+@genus:root: 1> source syn_flow.tcl
+#@ Begin verbose source ./syn_flow.tcl
+@file(syn_flow.tcl) 3: set_db init_lib_search_path ../libs/timing_lib/slow/
+  Setting attribute of root '/': 'init_lib_search_path' = ../libs/timing_lib/slow/
+@file(syn_flow.tcl) 6: set_db target_library {slow_vdd1v0_basicCells_hvt.lib slow_vdd1v0_basicCells.lib slow_vdd1v0_basicCells_lvt.lib}
+Error   : File error. [FILE-100] [set_db]
+        : Cannot open file 'slow_vdd1v0_basicCells_hvt.lib'
+        : Make sure that the file is a readable regular file and has the specified name.
+Error   : File error. [FILE-100] [set_db]
+        : Cannot open file 'slow_vdd1v0_basicCells.lib'
+Error   : File error. [FILE-100] [set_db]
+        : Cannot open file 'slow_vdd1v0_basicCells_lvt.lib'
+Error   : A library file does not exist. [LBR-68] [set_db]
+        : File 'slow_vdd1v0_basicCells_hvt.lib slow_vdd1v0_basicCells.lib slow_vdd1v0_basicCells_lvt.lib' could not be found. File '<none>' was the last file that was successfully read in.
+        : Make sure that the library file exists or check for a typo in the file name.
+Error   : The data value for this attribute is invalid. [TUI-24] [set_db]
+        : The value 'slow_vdd1v0_basicCells_hvt.lib slow_vdd1v0_basicCells.lib slow_vdd1v0_basicCells_lvt.lib' cannot be set for attribute 'target_library'.
+        : To see the usage/description for this attribute, type '::legacy::set_attribute -h <attr_name> *' (in legacy UI mode) or 'help * <attr_name> -detail' (in CUI mode).
+#@ End verbose source ./syn_flow.tcl
+1
+Encountered problems processing file: syn_flow.tcl
+@genus:root: 2> set_db init_lib_search_path ../libs/timing_lib/slow/
+  Setting attribute of root '/': 'init_lib_search_path' = ../libs/timing_lib/slow/
+1 ../libs/timing_lib/slow/
+@genus:root: 3> set_db target_library {slow_vdd1v0_basicCells_hvt.lib slow_vdd1v0_basicCells.lib slow_vdd1v0_basicCells_lvt.lib}
+Error   : File error. [FILE-100] [set_db]
+        : Cannot open file 'slow_vdd1v0_basicCells_hvt.lib'
+Error   : File error. [FILE-100] [set_db]
+        : Cannot open file 'slow_vdd1v0_basicCells.lib'
+Error   : File error. [FILE-100] [set_db]
+        : Cannot open file 'slow_vdd1v0_basicCells_lvt.lib'
+Error   : A library file does not exist. [LBR-68] [set_db]
+        : File 'slow_vdd1v0_basicCells_hvt.lib slow_vdd1v0_basicCells.lib slow_vdd1v0_basicCells_lvt.lib' could not be found. File '<none>' was the last file that was successfully read in.
+Error   : The data value for this attribute is invalid. [TUI-24] [set_db]
+        : The value 'slow_vdd1v0_basicCells_hvt.lib slow_vdd1v0_basicCells.lib slow_vdd1v0_basicCells_lvt.lib' cannot be set for attribute 'target_library'.
+1
+@genus:root: 4> exit
+
+Lic Summary:
+[10:03:49.309473] Cdslmd servers: vlsi5
+[10:03:49.309490] Feature usage summary:
+[10:03:49.309491] Genus_Synthesis
+
+Normal exit.

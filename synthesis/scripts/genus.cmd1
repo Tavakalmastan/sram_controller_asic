@@ -1,0 +1,10 @@
+# Cadence Genus(TM) Synthesis Solution, Version 23.16-s067_1, built Oct 30 2025 15:49:39
+
+# Date: Sat Mar 14 10:01:16 2026
+# Host: vlsi5.localdomain (x86_64 w/Linux 4.18.0-553.el8_10.x86_64) (20cores*80cpus*2physical cpus*Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz 28160KB)
+# OS:   Red Hat Enterprise Linux 8.10 (Ootpa)
+
+source syn_flow.tcl
+set_db init_lib_search_path ../libs/timing_lib/slow/
+set_db target_library {slow_vdd1v0_basicCells_hvt.lib slow_vdd1v0_basicCells.lib slow_vdd1v0_basicCells_lvt.lib}
+exit
