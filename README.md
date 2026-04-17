@@ -40,6 +40,14 @@ This project implements a complete ASIC flow for an SRAM Controller using Cadenc
 
 ![Floorplan](docs/floorplan.png)
 
+### 🔹 Physical Cells
+
+![Cells](docs/physical_cells.png)
+
+### 🔹 Power Planning
+
+![Power](docs/power_plan.png)
+
 ### 🔹 Placement
 
 ![Placement](docs/placement.png)
@@ -48,13 +56,6 @@ This project implements a complete ASIC flow for an SRAM Controller using Cadenc
 
 ![CTS](docs/cts_clock_tree.png)
 
-### 🔹 Power Planning
-
-![Power](docs/power_plan.png)
-
-### 🔹 Physical Cells
-
-![Cells](docs/physical_cells.png)
 
 ### 🔹 Final GDS Layout
 
