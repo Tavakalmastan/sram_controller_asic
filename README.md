@@ -1,8 +1,10 @@
 # SRAM Controller ASIC Design (RTL-to-GDSII)
 
+🚀 Complete ASIC RTL-to-GDSII flow implementation with timing closure and DRC clean design using Cadence tools.
+
 ## 📌 Overview
 
-This project implements a complete ASIC flow for an SRAM Controller using Cadence Genus and Innovus.
+This project implements a complete ASIC design flow for an SRAM Controller, starting from RTL and progressing through synthesis, floorplanning, placement, clock tree synthesis, routing, and final verification using industry-standard Cadence tools.
 
 ## 🔧 Tools Used
 
@@ -84,7 +86,15 @@ This project implements a complete ASIC flow for an SRAM Controller using Cadenc
 ---
 
 ## 🎯 Highlights
-
 * Complete RTL-to-GDSII implementation
-* Timing and DRC closure achieved
-* Industry-standard tools and flow
+* Achieved timing and DRC clean design
+* Used industry-standard Cadence tools
+* Hands-on debugging of real physical design issues
+
+---
+
+## 👨‍💻 Author
+
+Tavakalmastan
+
+---
