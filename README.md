@@ -58,7 +58,7 @@ This project implements a complete ASIC flow for an SRAM Controller using Cadenc
 
 ### 🔹 Routing
 
-![Routing](docs/routing.png)
+![Routing](docs/final_gds_layout.png)
 
 ### 🔹 Final GDS Layout
 
