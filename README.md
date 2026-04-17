@@ -34,7 +34,7 @@ This project implements a complete ASIC flow for an SRAM Controller using Cadenc
 
 ### 🔹 Synthesis Layout
 
-![Synthesis](docs/synthesis_layout.png)
+![Synthesis](docs/Synthesis_layout.png)
 
 ### 🔹 Floorplan
 
