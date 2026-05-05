@@ -116,7 +116,7 @@ This project implements a complete ASIC design flow for an SRAM Controller, star
 
 ### 🔹 Routing
 
-![Routing](D:\PD_Project\sram_controller_asic\docs/routing.png)
+![Routing](docs/route.png)
 
 ### 🔹 Final GDS Layout
 
