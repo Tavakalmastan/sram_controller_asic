@@ -114,9 +114,7 @@ This project implements a complete ASIC design flow for an SRAM Controller, star
 
 ![CTS](docs/clock_tree_synthesis.png)
 
-### 🔹 Routing
 
-![Routing](docs/final_gds_layout.png)
 
 ### 🔹 Final GDS Layout
 
